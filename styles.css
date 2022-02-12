@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    margin: 0;
+}
+#logo{
+    display: flex;
+    font-family: "Bangers", cursive;
+    font-size: 70pt;
+    justify-content: center;
+    background-color: #5BC0EB;
+    margin: 0;
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 49, 152);
+}
+
+main.correct{
+    background-color: rgb(155, 197, 61);
+}
+
+main.wrong{
+    background-color: rgb(229, 89, 52);
+}
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#letters h1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+#question{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px;
+}
+
+.btn{
+    border: thin solid black;
+    background-color: #5BC0EB;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    outline: none;
+}
+
+.btn:hover{
+    border-color: rgb(155, 197, 61);
+}
+
+.btn.correct{
+    background-color: rgb(155, 197, 61);
+    color:black;
+}
+
+.btn.wrong{
+    background-color: rgb(229, 89, 52);
+}
+
+#results{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
+.start-btn, .next-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
